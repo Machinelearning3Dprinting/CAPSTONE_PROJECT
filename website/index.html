@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+
+<html style="font-size:Large;font-family:'Franklin Gothic Medium';">
+
+<h4 id='mygreeting'>...</h4>
+
+
+
+<style>
+  img:focus {
+
+    width: 75vw;
+  }
+
+
+
+  /*.zoom-img {
+  width: 100vw;
+  overflow: scroll;
+
+}
+
+.zoom-img img {
+  width: 75%;
+  height: 25%;
+  transition: width 0.25s ease;
+}
+
+.zoom-img img:focus {
+  width: 250%;
+  
+}*/
+
+
+
+
+
+  a {
+    background-color: Black;
+    display: Inline;
+  }
+
+  ul {
+    list-style-type: square;
+  }
+
+  /*li {
+
+display:inline;
+
+}*/
+
+  li:nth-child(odd),
+  a:nth-child(odd) {
+    color: Grey;
+  }
+
+  li:nth-child(even),
+  a:nth-child(even) {
+    color: Crimson;
+  }
+
+  h2 {
+    background-color: Black;
+    display: Table;
+    margin: 25px auto 0px auto;
+  }
+
+  h5 {
+    background-color: Black;
+    display: Table;
+    margin: 0px auto 0px auto;
+  }
+
+  h3 {
+    background-color: Black;
+    display: Table;
+    margin: 0px 0px 0px 0px;
+  }
+
+  h4#mygreeting {
+    vertical-align: middle;
+    background-color: Black;
+    color: DarkRed;
+    display: inline;
+    margin: 0px 0px 0px opx;
+    position: static;
+    bottom: 0%;
+  }
+</style>
+
+
+<script>
+  function Greeting() {
+    const d = new Date();
+    const h = d.getHours();
+    if (h <= 11) {
+      var greeting = 'Good Morning';
+    } else if (h >= 12 && h <= 16) {
+      var greeting = 'Good Afternoon';
+    } else {
+      var greeting = 'Good Evening';
+    }
+    return document.getElementById('mygreeting').innerHTML = greeting + ' My Lord';
+  }
+</script><br>
+
+<head>
+  <title>Darth_Vader_Capstone_Project.html</title>
+</head>
+
+<script>
+
+  function mybackground() {
+    var W = window.innerWidth;
+
+    if (W > 1000) {
+
+      document.body.style.backgroundImage = "url('https://github.com/Machinelearning3Dprinting/GAME_DEV_22_Brandon/blob/main/public/images/index%20images/rogue-one-darth-vader-4k-gz.jpg?raw=true')";
+      document.body.style.backgroundRepeat = "repeat";
+      document.body.style.backgroundSize = "100vw auto";
+      document.body.style.backgroundAttachment = "fixed";
+      document.body.style.fontSize = "inherit";
+    } else {
+
+      document.body.style.backgroundImage = "url('https://github.com/Machinelearning3Dprinting/GAME_DEV_22_Brandon/blob/main/public/images/index%20images/darth-vader-ship-8k-6w-1125x2436.jpg?raw=true')";
+      document.body.style.backgroundRepeat = "repeat";
+      document.body.style.backgroundSize = "100vw auto";
+      document.body.style.backgroundAttachment = "fixed";
+      document.body.style.fontSize = "XX-large";
+    }
+  }
+  mybackground();
+</script>
+
+
+<body onload="mybackground();Greeting()" onresize="mybackground();Greeting()">
+
+  <h5 align=center style="color:DarkRed">Version 0.50.75.125</h5>
+
+  <h2 align=center style="color:DarkRed">◄ Capstone Project Resources ►</h2>
+  <h2 align=center style="color:DarkRed">◄ 2022 ►</h2>
+  <hr>
+
+
+  <h3 style="color:DarkRed">Softwares</h3>
+  <br>
+  <li><a href="https://easyeda.com/">EasyEDA</a></li>
+  <li><a style="color:DarkRed" href="https://www.autodesk.ca/en">Autodesk</a>
+
+    <ul style="list-style-type:circle">
+      <li><a style="color:Crimson"
+          href="https://www.autodesk.ca/en/products/fusion-360/overview?mktvar002=5022376|SEM|15561023979|131875405835|kwd-11029869505&gclsrc=aw.ds&&ef_id=EAIaIQobChMI8uTcku6i9gIVWD2tBh18twvWEAAYASAAEgKRIvD_BwE:G:s&s_kwcid=AL!11172!3!569397773160!e!!g!!fusion%20360!15561023979!131875405835&mkwid=s|pcrid|569397773160|pkw|fusion%20360|pmt|e|pdv|c|slid||pgrid|131875405835|ptaid|kwd-11029869505|pid|&utm_medium=cpc&utm_source=google&utm_campaign=&utm_term=fusion%20360&utm_content=s|pcrid|569397773160|pkw|fusion%20360|pmt|e|pdv|c|slid||pgrid|131875405835|ptaid|kwd-11029869505|&gclid=EAIaIQobChMI8uTcku6i9gIVWD2tBh18twvWEAAYASAAEgKRIvD_BwE">Fusion
+          360</a></li>
+      <li><a href="https://www.tinkercad.com/">TinkerCAD</a></li>
+    </ul>
+  </li>
+
+  <li><a style="color:Crimson" href="https://www.apple.com/ca/imovie/">iMovie</a></li>
+  <li><a
+      href="https://www.microsoft.com/en-ca/microsoft-365/p/powerpoint/CFQ7TTC0HLG1?&ef_id=CjwKCAiA1JGRBhBSEiwAxXblwcf-r036OJ5ykOc9cZ2GFBL2xakMWb4xOoUiKb3LQtXKGjqYVWFB9BoCSDMQAvD_BwE:G:s&OCID=AID2200006_SEM_CjwKCAiA1JGRBhBSEiwAxXblwcf-r036OJ5ykOc9cZ2GFBL2xakMWb4xOoUiKb3LQtXKGjqYVWFB9BoCSDMQAvD_BwE:G:s&lnkd=Google_O365SMB_Brand&gclid=CjwKCAiA1JGRBhBSEiwAxXblwcf-r036OJ5ykOc9cZ2GFBL2xakMWb4xOoUiKb3LQtXKGjqYVWFB9BoCSDMQAvD_BwE">Office
+      365 PowerPoint</a></li>
+  <br>
+  <hr>
+  <br>
+
+  <h3 style="color:DarkRed">Resources</h3>
+  <br>
+  <a>Data Sheets</a>
+
+  <ul style="color:White">
+
+
+
+    <li><a href="./Done/5%20VOLTAGE%20REGULATOR.pdf">5V Voltage Regulator</a></li>
+    <li><a style="color:Crimson" href="./Done/RED_LED.pdf">RED SMT LED</a></li>
+    <li><a href="./Done/BLUE_LED.pdf">BLUE SMT LED</a></li>
+    <li><a style="color:Crimson" href="./Done/3_3%20VOLTAGE%20REGULATOR.pdf">3.3V Voltage Regulator</a>
+    </li>
+    <li><a href="./Done/10%CE%A9%20RESISTOR.pdf">10Ω Resistor</a></li>
+    <li><a style="color:Crimson" href="./Done/43%CE%A9%20RESISTOR.pdf">43Ω Resistor</a></li>
+    <li><a href="./Done/RED_LED_3MM.pdf">RED TH 3MM LED</a></li>
+    <li><a style="color:Crimson" href="./Done/GREEN_LED_5MM.pdf">GREEN TH 5MM LED</a></li>
+    <li><a href="./Done/Button%20SwitchR2.pdf">Push Button Revision 2.0</a></li>
+    <li><a style="color:Crimson" href="./Done/Button%20SwitchR3.pdf">Push Button Revision 3.0</a></li>
+    <li><a href="./Done/DIP%20Switch%20X8.pdf">DIP Switch 1X8 And 1x4</a></li>
+    <li><a style="color:Crimson" href="./Done/ATtiny85.pdf">ATtiny85 Microcontroller</a></li>
+
+  </ul>
+  <br><br>
+
+  <a>Research</a>
+
+  <ul>
+
+    <li><a href="https://engineerzero.blog/2013/09/22/how-not-to-blow-up-your-leds/">How To Blow Up An LED</a></li>
+    <li><a style="color:Crimson" href="website external links/Chest Box Layouts.html">Chest Box Layout</a></li>
+    <li><a href="website external links/Chest Box.html">Chest Boxes</a></li>
+    <li><a style="color:Crimson" href="website external links/Rocker and Coin Slots.html">Rocker and Coin Slots</a></li>
+
+    <br><br>
+
+    <li><a href="design images/Chest Plate Reference.jpg">Chest Plate Reference 01</a></li>
+    <li><a style="color:Crimson" href="design images/darth-vader-chest-plate.jpg">Chest Plate Reference 02</a></li>
+    <li><a href="design images/darth-vader-star-wars-esb-force_1_000a40a61b2b15a138e21af03eb704f9.jpg">Chest Plate
+        Reference 03</a></li>
+    <li><a style="color:Crimson" href="design images/IMG_0992.JPG">Chest Plate Reference 04</a></li>
+    <li><a href="design images/ROTJ_large.jpg">Chest Plate Reference 05</a></li>
+
+
+  </ul>
+
+  <br><br>
+
+  <table align="centre" style="display:block">
+    <tr>
+      <td style="border:3px,solid,red" align="center"><img tabindex="0" align="centre" width=100%
+          style="color:RED;display:inline;" src="Darth Vader Belt boxes v19.png" alt="Right Belt Box PCB"></td>
+      <td style="border:3px,solid,red" align="center"><img tabindex="0" align="centre" width=100%
+          style="color:RED;display:inline;" src="Darth Vader Chest Plate v11.png" alt="Left Belt Box PCB"></td>
+    </tr>
+  </table>
+
+  <!--<img src="Darth Vader Belt boxes v19.png">
+  <img src="Darth Vader Chest Plate v11.png">-->
+  <hr> <br><br>
+
+
+  <a>Schematics</a>
+
+  <ul>
+    <li style="display:none"></li>
+    <li><a style="color:crimson" href="./Done/Schematic_DARTH%20VADER%20COSTUME_2022-03-04.pdf">Darth
+        Vader Belt Boxes</a></li>
+
+
+    <!--<br><br>  -->
+
+
+
+  </ul>
+  <table align="centre" style="display:block">
+    <tr>
+      <td style="border:3px,solid,red" align="center"><img tabindex="0" align="centre" width=100%
+          style="color:RED;display:inline;" src="Belt Box PCB Right.jpg" alt="Right Belt Box PCB"></td>
+      <td style="border:3px,solid,red" align="center"><img tabindex="0" align="centre" width=100%
+          style="color:RED;display:inline;" src="Belt Box PCB Left.jpg" alt="Left Belt Box PCB"></td>
+    </tr>
+  </table>
+
+  <!--<br><br><br><br><br><br><br><br><br>-->
+  <ul>
+
+
+    <li><a href="./Done/Schematic_DARTH%20VADER%20COSTUME%20Chest%20Plate_2022-03-04.pdf">Darth Vader
+        Chest Plate Revision 1.0</a></li>
+    <li><a style="color:Crimson"
+        href="./Done/Schematic_DARTH%20VADER%20COSTUME%20Chest%20Plate_2022-03-06.pdf">Darth Vader
+        Chest Plate Revision 2.0</a></li>
+    <li><a href="./Done/Schematic_DARTH%20VADER%20COSTUME%20Chest%20Plate_2022-03-08.pdf">Darth Vader
+        Chest Plate Revision 3.0</a></li>
+    <li><a style="color:Crimson"
+        href="./Done/Schematic_DARTH%20VADER%20COSTUME%20Chest%20Plate_2022-03-15.pdf">Darth Vader
+        Chest Plate Revision 4.0</a></li>
+    <li><a href="./Done/Schematic_DARTH%20VADER%20COSTUME%20Chest%20Plate_2022-03-30.pdf">Darth Vader
+        Chest Plate Revision 5.0</a></li>
+
+  </ul>
+
+  <table align="centre" style="display:block">
+    <tr>
+      <td style="border:3px,solid,red" align="center" class="zoom-img"><img tabindex="0" align="centre" width=100%
+          style="color:RED;display:inline;" src="Chest Plate PCB TOP.jpg" alt="Top Chest Plate PCB"></td>
+      <td style="border:3px,solid,red" align="center" class="zoom-img"><img tabindex="0" align="centre" width=100%
+          style="color:RED;display:inline;" src="Chest Plate PCB BOTTOM.jpg" alt="Bottom Chest Plate PCB"></td>
+    </tr>
+  </table>
+
+  <ul>
+
+    <li><a href="./measurement.txt">Measurements</a></li>
+
+  </ul>
+
+</body>
+
+</html>
